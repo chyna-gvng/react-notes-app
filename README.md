@@ -5,7 +5,7 @@
 ### Dev Setup
 - Clone repo:  
     ``
-    git clone ..
+    git clone https://github.com/chyna-gvng/react-notes-app.git
     ``
 - Change directory:  
     ``
