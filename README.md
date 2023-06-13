@@ -3,16 +3,19 @@
 - Vite
 
 ### Dev Setup
-- Clone repo:
-``
-git clone ..
-``
-``
-cd react-notes-app
-``
-``
-npm install
-``
+- Clone repo:  
+    ``
+    git clone ..
+    ``
+- Change directory:  
+    ``
+    cd react-notes-app
+    ``
+- Install modules & requiremnts:  
+    ``
+    npm install
+    ``
+- Start app:  
 ``
 npm start
 ``
