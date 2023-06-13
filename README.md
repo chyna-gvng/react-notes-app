@@ -1,4 +1,5 @@
 ### React Notes App
+Markdown notes app:
 - React
 - Vite
 
