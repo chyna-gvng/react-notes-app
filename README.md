@@ -3,6 +3,7 @@
 - Vite
 
 ### Dev Setup
+- Clone repo:
 ``
 git clone ..
 ``
