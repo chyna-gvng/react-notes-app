@@ -16,6 +16,6 @@
     npm install
     ``
 - Start app:  
-``
-npm start
-``
+    ``
+    npm start
+    ``
