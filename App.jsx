@@ -1,21 +1,21 @@
-import React from "react"
-import Sidebar from "./components/Sidebar"
-import Editor from "./components/Editor"
-import Split from "react-split"
-import { nanoid } from "nanoid"
+import React from "react";
+import Sidebar from "./components/Sidebar";
+import Editor from "./components/Editor";
+import Split from "react-split";
+import { nanoid } from "nanoid";
 import {
     onSnapshot,
     addDoc,
     doc,
     deleteDoc,
     setDoc
-} from "firebase/firestore"
-import { notesCollection, db } from "./firebase"
+} from "firebase/firestore";
+import { notesCollection, db } from "./firebase";
 
 export default function App() {
-    const [notes, setNotes] = React.useState([])
-    const [currentNoteId, setCurrentNoteId] = React.useState("")
-    const [tempNoteText, setTempNoteText] = React.useState("")
+    const [notes, setNotes] = React.useState([]);
+    const [currentNoteId, setCurrentNoteId] = React.useState(null);
+    const [tempNoteText, setTempNoteText] = React.useState("");
     
     const currentNote =
         notes.find(note => note.id === currentNoteId)
@@ -114,5 +114,5 @@ export default function App() {
 
             }
         </main>
-    )
+    );
 }
