@@ -1,21 +1,21 @@
-[debug] [2023-06-13T08:01:52.752Z] ----------------------------------------------------------------------
-[debug] [2023-06-13T08:01:52.757Z] Command:       /usr/bin/node /usr/bin/firebase login
-[debug] [2023-06-13T08:01:52.758Z] CLI Version:   12.3.1
-[debug] [2023-06-13T08:01:52.758Z] Platform:      linux
-[debug] [2023-06-13T08:01:52.759Z] Node Version:  v20.2.0
-[debug] [2023-06-13T08:01:52.759Z] Time:          Tue Jun 13 2023 11:01:52 GMT+0300 (East Africa Time)
-[debug] [2023-06-13T08:01:52.760Z] ----------------------------------------------------------------------
+[debug] [2023-06-13T08:02:37.193Z] ----------------------------------------------------------------------
+[debug] [2023-06-13T08:02:37.198Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2023-06-13T08:02:37.199Z] CLI Version:   12.3.1
+[debug] [2023-06-13T08:02:37.200Z] Platform:      linux
+[debug] [2023-06-13T08:02:37.200Z] Node Version:  v20.2.0
+[debug] [2023-06-13T08:02:37.201Z] Time:          Tue Jun 13 2023 11:02:37 GMT+0300 (East Africa Time)
+[debug] [2023-06-13T08:02:37.201Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2023-06-13T08:01:52.765Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
-[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
- 
-[debug] [2023-06-13T08:01:53.393Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
-[debug] [2023-06-13T08:01:53.394Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
-[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[debug] [2023-06-13T08:02:37.214Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-13T08:02:37.215Z] > authorizing via signed-in user (angoyewally@gmail.com)
 [info] 
-[info] Visit this URL on this device to log in:
-[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=891347849&redirect_uri=http%3A%2F%2Flocalhost%3A9005
-[info] 
-[info] Waiting for authentication...
-[debug] [2023-06-13T08:02:20.561Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
-[debug] [2023-06-13T08:02:20.563Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/wally/Desktop/Projects/react-notes-app
+
