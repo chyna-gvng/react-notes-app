@@ -8,14 +8,14 @@
     git clone https://github.com/chyna-gvng/react-notes-app.git
     ```
 - Change directory:  
-    ``
+    ```
     cd react-notes-app
-    ``
+    ```
 - Install modules & requiremnts:  
-    ``
+    ```
     npm install
-    ``
+    ```
 - Start app:  
-    ``
+    ```
     npm start
-    ``
+    ```
