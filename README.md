@@ -21,4 +21,4 @@ Markdown notes app:
     npm start
     ```
 
-Note: Renderissues ..
+Note: Rendering issues ..
