@@ -20,3 +20,5 @@ Markdown notes app:
     ```
     npm start
     ```
+
+Note: Render issues ..
